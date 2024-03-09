@@ -1,14 +1,14 @@
 const person = {
-    firstName = "Jhon";
-    lastName = "Doe";
-    id = 38758;
-    fullName = function(){
-        return this.firstName + " " + this.lastName;
-    },
-    getFullname(){
-        return this.fullName();
+    firstName: "John",
+    lastName: "Doe",
+    id: 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
     }
-};
+  };
 
+  console.log(person.fullName());
 
-console.log(person.getFullname());
+  let x = this;
+
+  console.log(x);
